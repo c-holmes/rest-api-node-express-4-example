@@ -18,6 +18,12 @@ Postman will help us test our API. It will basically send HTTP requests to a URL
 
 ### Database and Model
 * Database: MongoDB database using mongoose to interact with our collection.
+ * start mongodb up - `mongod --dbpath /Users/chrisholmes/data/db`
+ * import dataset (not needed for this app) - `mongoimport --db test --collection restaurants --drop --file /Users/chrisholmes/Desktop/primer-dataset.json`
+ * enter mongo shell - `mongo`
+ * create bears collection in the mongo shell - `use bears`
+ * collection will only save once data is saved within it
+  * to manually insert (not needed for this app) - `db.bears.save( {name:"test"} )`
 * Model: single name field
 
 ### Express Routes
