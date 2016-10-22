@@ -10,6 +10,7 @@
 * mongoose is the ORM we will use to communicate with our MongoDB database.
 * body-parser will let us pull POST content from our HTTP request so that we can do things like create a bear.
  * access :bear_id from the request
+
 ### Testing API using Postman
 Postman will help us test our API. It will basically send HTTP requests to a URL of our choosing. We can even pass in parameters (which we will soon) and authentication (which we won’t need for this tutorial).
 * [https://www.getpostman.com/]: Download Postman
